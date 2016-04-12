@@ -12,36 +12,34 @@ If you see a small number of results per page after applying a filter, Pauper Sc
 
 ## Installation
 
-Unfortunately, this extension is not available in Chrome Web Store so you'll need to install it manually. There are two ways to install the extension. If none of them works for you, go to the [issues tab] and look for installation issues. If there are no installation issues, create a new issue and explain what exactly went wrong when you followed both of the instructions. Please specify the operating system you use (Windows, Mac, Linux) and your Chrome version (can be found at [chrome://help/]). 
+Unfortunately, this extension is not available in Chrome Web Store so you'll need to install it manually. There are two ways to install the extension. If none of them works for you, go to the [issues tab] and look for installation issues. If there are no installation issues, create a new issue and explain what exactly went wrong when you followed both of the instructions. Please specify the operating system you use (Windows, Mac, Linux) and your Chrome version (can be found at `chrome://help`). 
 
 ### Method 1
 1. Download the [packaged extension].
-2. Go to [chrome://extensions].
+2. Go to ```chrome://extensions```
 3. Check the Developer mode checkbox if it isn't checked already.
-4. Drag and drop the pauper-scholar.crx file onto the Extensions page.
+4. Drag and drop the `pauper-scholar.crx` file onto the Extensions page.
 5. In the appeared pop-up, click Add extension.
 6. Uncheck the Developer mode checkbox if you checked it in the 3rd item.
 
 ### Method 2
 1. Download the [repository].
-2. Unzip the master.zip file.
-3. Go to [chrome://extensions].
+2. Unzip the `master.zip` file.
+3. Go to ```chrome://extensions```
 4. Check the Developer mode checkbox if it isn't checked already.
 5. Click Load unpacked extension...
-6. In the appeared Select the extension directory window, choose the src directory inside of the unzipped master directory.
+6. In the appeared Select the extension directory window, choose the `src` directory inside of the unzipped `master` directory.
 7. Uncheck the Developer mode checkbox if you checked it in the 4th item.
 
 ## License
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 
 ## Attribution
-The Pauper Scholar [icon](src/icon128.png) is a derivative work of the 'school' icon from the [Material icons] collection.
+The Pauper Scholar [icon](src/icon128.png) is a derivative work of the `school` icon from the [Material icons] collection.
 
 
    [Inclusion#Indexing]: <https://scholar.google.com/intl/en/scholar/inclusion.html#indexing>
    [issues tab]: <https://github.com/murfel/pauper-scholar/issues/>
-   [chrome://help]: <chrome://help>
-   [packaged extension]: <pauper-scholar.crx>
-   [chrome://extensions]: <chrome://extensions>
+   [packaged extension]: <https://github.com/murfel/pauper-scholar/raw/master/pauper-scholar.crx>
    [repository]: <https://github.com/murfel/pauper-scholar/archive/master.zip>
    [Material icons]: <https://design.google.com/icons/>
