@@ -1,0 +1,21 @@
+{
+  "name": "Pauper Scholar",
+  "description": "Differentiate between free-access and paid-access articles in search results on Google Scholar.",
+  "icons":
+    {
+      "128": "icon128.png"
+     },
+  "version": "1.0",
+  "permissions": [
+    "storage", "tabs", "*://*/scholar?*as_sdt=0*", "*://*/scholar?*as_sdt=1*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/scholar?*as_sdt=0*", "*://*/scholar?*as_sdt=1*"],
+      "js": ["injection.js"]
+    }
+  ],
+  "manifest_version": 2,
+  "options_page": "options.html",
+  "update_url": "https://raw.githubusercontent.com/murfel/pauper-scholar/master/updates.xml"
+}
