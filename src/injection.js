@@ -2,17 +2,14 @@
 // I didn't notice it trigger anything when I was writing the code
 // so I removed it to keep the code stable.
 var html = `
-<div class='gs_pad'>
-  <div class='gs_hr'></div>
-</div>
-<ul id='gs_lnv_access' class='gs_pad'>
+<ul class='gs_bdy_sb_sec'>
   <li class='gs_inw'><a role='checkbox' id='free' class='gs_in_cb'><span class='gs_lbl'>free-access articles</span><span class='gs_chk'></span><span class='gs_cbx'></span></a></li>
   <li class='gs_inw'><a role='checkbox' id='paid' class='gs_in_cb'><span class='gs_lbl'>paid-access articles</span><span class='gs_chk'></span><span class='gs_cbx'></span></a></li>
 </ul>
 `;
 
 // Insert the HTML code for unchecked checkboxes.
-document.getElementById('gs_lnv_misc').insertAdjacentHTML('afterEnd', html);
+document.getElementsByClassName('gs_bdy_sb_sec')[2].insertAdjacentHTML('afterEnd', html);
 
 
 // 'free' for free-access articles,
