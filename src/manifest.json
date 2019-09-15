@@ -7,11 +7,11 @@
      },
   "version": "1.0",
   "permissions": [
-    "storage", "tabs", "*://*/scholar?*as_sdt=0*", "*://*/scholar?*as_sdt=1*"
+    "storage", "tabs", "http://scholar.google.com/*", "https://scholar.google.com/*"
   ],
   "content_scripts": [
     {
-      "matches": ["*://*/scholar?*as_sdt=0*", "*://*/scholar?*as_sdt=1*"],
+      "matches": ["http://scholar.google.com/*", "https://scholar.google.com/*"],
       "js": ["injection.js"]
     }
   ],
